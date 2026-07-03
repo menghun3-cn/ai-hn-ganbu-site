@@ -88,6 +88,42 @@
       font-size: 14px;
     }
 
+    .license-note {
+      display: grid;
+      gap: 8px;
+      margin-top: 16px;
+      padding: 14px;
+      border: 1px solid #d8dee8;
+      border-radius: 8px;
+      background: #f8fbff;
+    }
+
+    .license-note p {
+      margin: 0;
+      color: #344258;
+      line-height: 1.7;
+    }
+
+    .price-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: baseline;
+      margin: 0;
+    }
+
+    .price-current {
+      color: #d63c32;
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.3;
+    }
+
+    .price-origin {
+      color: #7b8798;
+      text-decoration: line-through;
+    }
+
     .content {
       margin-top: 18px;
       padding: 28px;
@@ -197,6 +233,13 @@
       <div class="download-row">
         <a class="download-button" href="files/ai-hn-ganbu-auto-study-0.1.3-chrome.zip" download>下载插件包</a>
         <span class="version">当前版本：0.1.3 · ai-hn-ganbu-auto-study-0.1.3-chrome.zip</span>
+      </div>
+      <div class="license-note">
+        <p>兑换码和用户 ID 绑定，有效期内不限制使用。</p>
+        <p class="price-line">
+          <span class="price-current">限时优惠 ￥15元/月</span>
+          <span class="price-origin">原价 ￥30元/月</span>
+        </p>
       </div>
     </section>
 
